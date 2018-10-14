@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class Test {
 	
 	public static void main(String[] args) {
@@ -6,5 +8,7 @@ public class Test {
 		
 		String test = "Hello World";
 		System.out.println(test);
+		
+		System.out.println(Arrays.toString(test.split("\\s")));
 	}
 }
